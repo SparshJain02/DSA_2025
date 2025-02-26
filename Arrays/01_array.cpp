@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int problemStatement(int arr[], int n){
+void problemStatement(int arr[], int n){
     // taking input
     for(int i=0; i<n; i++){
         cout<<"arr["<<i<<"]: ";
@@ -14,7 +14,7 @@ int problemStatement(int arr[], int n){
     }
 }
 
-int print(int arr[], int n){
+void print(int arr[], int n){
     for(int i=0; i<n; i++){
         cout<<arr[i]<<" ";
     }
