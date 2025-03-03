@@ -25,9 +25,9 @@ void extremePrint(int arr[], int size){
         }
     }
     print(brr,size);
+
 }
 int main(){
     int arr[6] = {10,20,30,40,50};
     extremePrint(arr,5);
-
 }
